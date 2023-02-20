@@ -1,6 +1,6 @@
 ﻿Console.Clear();
 
-Console.WriteLine("You need to inout n and m numbers in Ackermann function (n, m)");
+Console.WriteLine("You need to input n and m numbers in Ackermann function (n, m)");
 Console.WriteLine("Write the n number");
 int n = int.Parse(Console.ReadLine());
 Console.WriteLine("Write the m number");
