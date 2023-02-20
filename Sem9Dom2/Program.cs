@@ -11,7 +11,7 @@ int CountSum(int n, int m)
     if (n == m)
         return n;
     else
-        return n + CountSum(n, m-1);
+        return n + CountSum(n+1, m);
 }
 
 
