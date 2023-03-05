@@ -1,6 +1,6 @@
 ﻿Console.Clear();
 
-Console.WriteLine("Введите слова или числа через пробел");
+Console.WriteLine("Write your words or numbers separated by space");
 string str = Console.ReadLine();
 string[] array = str.Split(' ').Distinct().ToArray();
 
