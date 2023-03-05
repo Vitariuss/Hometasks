@@ -1,8 +1,8 @@
 ﻿Console.Clear();
 
 Console.WriteLine($"\n Write the size of your array:");
-int m = InputNumbers("Input m: ");
-int n = InputNumbers("Input n: ");
+int m = InputNumbers("Input the number of lines: ");
+int n = InputNumbers("Input the number of columns: ");
 
 int[,] array = new int[m, n];
 CreateArray(array);
