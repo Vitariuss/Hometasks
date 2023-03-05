@@ -14,3 +14,6 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
+
+Console.Write("Your new array is - ");
+PrintArray(array2);
